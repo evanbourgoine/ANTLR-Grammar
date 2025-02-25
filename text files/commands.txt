@@ -1,0 +1,11 @@
+--------------- Generate Lexer/Parser
+
+java -cp antlr-4.13.2-complete.jar org.antlr.v4.Tool PR1.g4
+
+---------------- Compile java files
+
+javac -cp .:antlr-4.13.2-complete.jar PR1.java PR1FullVisitor.java Function.java gen/*.java
+
+--- OR
+
+javac -cp .:antlr-4.13.2-complete.jar *.java
