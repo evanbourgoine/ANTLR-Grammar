@@ -5,8 +5,7 @@ import java.util.*;
 import java.util.concurrent.Phaser;
 
 /**
- * Evan Bourgoine
- * Project 1: PR1 Java File
+ * Author: Evan Bourgoine
  */
 public class PR1 {
 
