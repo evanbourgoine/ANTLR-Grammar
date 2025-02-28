@@ -8,8 +8,7 @@ import java.util.ArrayList;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
 /**
- * Evan Bourgoine
- * CS3304 Project 1: Full Visitor File
+ * Author: Evan Bourgoine
  */
 public class PR1FullVisitor extends PR1BaseVisitor<Object> {
     
